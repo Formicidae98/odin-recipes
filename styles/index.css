@@ -1,11 +1,12 @@
-* {
+body,
+html {
   background-color: rgba(231, 228, 228, 0.952);
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   font-size: 4rem;
   line-height: 20rem;
@@ -28,11 +29,11 @@ h1 {
 }
 
 .nav-links li {
- margin: 10px;
+  margin: 10px;
 }
 
 .nav-links a {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(0, 8, 10);
   box-shadow: rgba(3, 214, 179, 0.3) 0px 10px 10px 3px;
   text-decoration: none;
@@ -42,4 +43,21 @@ h1 {
 
 .nav-links a:hover {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 5rem;
+  color: #ffffff;
+  line-height: 2;
+}
+
+.header {
+  background: #141e30;
+  background: -webkit-linear-gradient(to right, #243b55, #141e30);
+  background: linear-gradient(to right, #243b55, #141e30);
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(15, 15, 15, 0.849);
 }
