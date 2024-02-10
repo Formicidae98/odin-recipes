@@ -50,19 +50,19 @@ h1 {
 
 header a {
   text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
   font-size: 5rem;
-  color: #ffffff;
-  line-height: 2;
+  text-shadow: 4px 7px 5px rgba(0, 0, 0, 0.5), 0 0 10px #0a2351;
+  transition: color 0.5s ease, letter-spacing 0.5s ease;
+  margin: 0;
 }
 
-.header {
-  background: #141e30;
-  background: -webkit-linear-gradient(to right, #243b55, #141e30);
-  background: linear-gradient(to right, #243b55, #141e30);
-  text-align: center;
-  padding: 0;
-  margin: 10px;
-  box-shadow: 0 4px 6px rgba(15, 15, 15, 0.849);
+header a:hover {
+  letter-spacing: 7px;
+  color: #9E7167;
+  margin: 2px;
 }
 
 body::-webkit-scrollbar {
