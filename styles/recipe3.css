@@ -3,6 +3,7 @@ body {
   --sb-track-color: #232E33;
   --sb-thumb-color: #6BAF8D;
   --sb-size: 14px;
+  font-family: 'Nunito', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -42,4 +43,25 @@ header a:hover {
   letter-spacing: 7px;
   color: #9E7167;
   margin: 2px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 18px;
+  border-bottom: 3px solid rgb(27, 138, 158);
+  width: 500px;
+}
+
+ol li {
+  font-size: 18px;
+  width: 500px;
+  padding: 20px;
+}
+
+p {
+  font-size: 18px;
 }
